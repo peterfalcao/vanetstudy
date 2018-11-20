@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<!-- generated on Tue Nov 20 14:45:15 2018 by SUMO sumo Version 0.12.3
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/vanet/vanetstudy/test.net.xml"/>
+        <route-files value="/home/vanet/vanetstudy/test.rou.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="/home/vanet/vanetstudy/test.sumo.tr"/>
+        <emissions-output value="/home/vanet/vanetstudy/output-emissions.xml"/>
+        <tripinfo-output value="/home/vanet/vanetstudy/output-tripinfos.xml"/>
+        <vehroute-output value="/home/vanet/vanetstudy/output-vehroutes.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <processing>
+        <route-steps value="-1"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <print-options value="false"/>
+    </report>
+
+    <random_number>
+        <srand value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value=""/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos>
+    <tripinfo id="f1_2" depart="80.00" departLane="R12_0" departPos="7.60" departSpeed="0.00" departDelay="0.00" arrival="940.00" arrivalLane="L23_1" arrivalPos="7.78" arrivalSpeed="8.94" duration="860.00" routeLength="6013.86" waitSteps="303" rerouteNo="0" devices="vehroute_f1_2 tripinfo_f1_2" vtype="DEFAULT_VEHTYPE" vaporized="">
+    </tripinfo>
+</tripinfos>

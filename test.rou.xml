@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+
+<!-- generated on Tue Nov 20 14:42:54 2018 by SUMO jtrrouter Version 0.12.3
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/jtrrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/vanet/vanetstudy/test.net.xml"/>
+        <flow-definition value="/home/vanet/vanetstudy/test.flow.xml"/>
+        <turn-definition value="/home/vanet/vanetstudy/test.turn.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/vanet/vanetstudy/test.rou.xml"/>
+    </output>
+
+    <processing>
+        <continue-on-unbuild value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <suppress-warnings value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes>
+    <vehicle id="f0_0" depart="0.00">
+        <route edges="D04 U14 L01 D04 R45 U25 R23 L23 L12 D14 R45 U35 D35 L45 U04 D04 R45 U35 D35 L45 U04 R01 R12 D25 U35 D35 U35 D35 L45 U04 R01 D14 R45"/>
+    </vehicle>
+    <vehicle id="f1_0" depart="0.00">
+        <route edges="R12 D25 L45 R45 U35 D35 L45 U14 R12 D25 U25 R23 D35 U25 L12 L01 R01 D14 R45 U25 L12 D14 U14 D14 R45 U25 L12 L01 R01 D14 R45 U35 L23"/>
+    </vehicle>
+    <vehicle id="f0_1" depart="40.00">
+        <route edges="D04 R45 U25 D25 L45 U14 D14 R45 U25 R23 L23 L12 L01 D04 R45 U25 L12 L01 D04 R45 U25 L12 D14 R45 L45 U04 R01 R12 D25 L45 U04 R01 L01"/>
+    </vehicle>
+    <vehicle id="f1_1" depart="40.00">
+        <route edges="R12 D25 U25 L12 D14 R45 U25 D25 U35 D35 U25 L12 D14 R45 U35 L23 D25 U35 L23 D25 L45 U04 R01 L01 D04 R45 U35 L23 D25 U25 D25 L45 R45"/>
+    </vehicle>
+    <vehicle id="f0_2" depart="80.00">
+        <route edges="D04 R45 U25 L12 D14 U04 R01 R12 D25 U35 L23 R23 L23 R23 L23 D25 L45 R45 L45 U04 D04 R45 U25 L12 D14 R45 U35 D35 U35 L23 D25 U25 L12"/>
+    </vehicle>
+    <vehicle id="f1_2" depart="80.00">
+        <route edges="R12 D25 U25 D25 U35 D35 L45 R45 U25 L12 R12 D25 L45 U14 L01 D04 R45 U25 L12 R12 D25 U35 L23 D25 L45 U14 R12 D25 L45 R45 U25 R23 L23"/>
+    </vehicle>
+    <vehicle id="f0_3" depart="120.00">
+        <route edges="D04 R45 U35 L23 R23 D35 U35 D35 L45 U04 R01 R12 D25 U35 D35 L45 U14 L01 D04 R45 U35 L23 D25 U35 D35 U25 D25 U35 L23 D25 L45 U04 R01"/>
+    </vehicle>
+    <vehicle id="f1_3" depart="120.00">
+        <route edges="R12 D25 U25 D25 L45 R45 U35 L23 D25 L45 U04 R01 R12 D25 U35 D35 L45 U14 R12 D25 L45 U14 R12 D25 L45 U04 R01 D14 R45 U25 L12 D14 R45"/>
+    </vehicle>
+    <vehicle id="f0_4" depart="160.00">
+        <route edges="D04 R45 U25 L12 D14 R45 L45 U14 R12 D25 U35 D35 U25 D25 U25 L12 L01 R01 R12 D25 U35 D35 L45 U04 D04 R45 U25 L12 D14 U04 R01 L01 R01"/>
+    </vehicle>
+    <vehicle id="f1_4" depart="160.00">
+        <route edges="R12 D25 L45 R45 U25 L12 D14 U14 D14 R45 U25 L12 R12 D25 U35 D35 U25 L12 R12 D25 U35 L23 R23 D35 U25 D25 U25 R23 D35 U25 R23 D35 L45"/>
+    </vehicle>
+    <vehicle id="f0_5" depart="200.00">
+        <route edges="D04 R45 U25 D25 L45 U04 D04 R45 U35 D35 L45 R45 U35 L23 D25 L45 U14 R12 D25 U25 L12 R12 D25 L45 R45 U25 R23 D35 L45 R45 U35 L23 L12"/>
+    </vehicle>
+    <vehicle id="f1_5" depart="200.00">
+        <route edges="R12 D25 U25 D25 U35 D35 U35 D35 L45 U04 R01 R12 D25 U35 L23 R23 D35 L45 U14 R12 D25 U25 R23 D35 U25 D25 U25 L12 D14 R45 U25 R23 L23"/>
+    </vehicle>
+    <vehicle id="f0_6" depart="240.00">
+        <route edges="D04 U14 L01 D04 R45 U25 L12 L01 D04 R45 L45 U14 R12 D25 U25 D25 L45 U04 R01 D14 U04 D04 R45 L45 U14 R12 D25 U25 D25 U25 L12 D14 R45"/>
+    </vehicle>
+    <vehicle id="f1_6" depart="240.00">
+        <route edges="R12 D25 U25 L12 D14 U14 L01 R01 D14 U04 R01 R12 D25 U25 R23 D35 L45 U04 R01 R12 D25 U25 L12 D14 R45 L45 R45 U25 L12 D14 U04 R01 L01"/>
+    </vehicle>
+    <vehicle id="f0_7" depart="280.00">
+        <route edges="D04 R45 U25 L12 R12 D25 L45 U04 D04 R45 U25 R23 L23 D25 U35 L23 R23 L23 L12 L01 R01 L01 R01 L01 R01 L01 D04 R45 L45 R45 L45 U04 R01"/>
+    </vehicle>
+    <vehicle id="f1_7" depart="280.00">
+        <route edges="R12 D25 L45 U04 R01 L01 D04 U14 L01 R01 D14 R45 U25 L12 R12 D25 L45 U14 R12 D25 U35 D35 L45 U04 D04 R45 U25 L12 L01 D04 R45 U35 D35"/>
+    </vehicle>
+    <vehicle id="f0_8" depart="320.00">
+        <route edges="D04 R45 U25 L12 L01 D04 R45 U35 L23 D25 U35 L23 L12 R12 D25 U35 L23 D25 U25 R23 D35 L45 U04 R01 R12 D25 U35 D35 U25 L12 D14 R45 U35"/>
+    </vehicle>
+    <vehicle id="f1_8" depart="320.00">
+        <route edges="R12 D25 U35 D35 U25 L12 D14 U14 L01 R01 L01 D04 R45 U25 L12 D14 R45 U25 R23 L23 R23 L23 D25 U25 L12 L01 R01 R12 D25 U35 L23 L12 D14"/>
+    </vehicle>
+    <vehicle id="f0_9" depart="360.00">
+        <route edges="D04 R45 U35 L23 L12 R12 D25 U25 L12 R12 D25 U25 L12 D14 R45 L45 U04 D04 R45 L45 U14 R12 D25 U25 R23 D35 L45 U04 R01 R12 D25 L45 U04"/>
+    </vehicle>
+    <vehicle id="f1_9" depart="360.00">
+        <route edges="R12 D25 U25 L12 L01 R01 D14 U04 D04 R45 U25 D25 U35 D35 L45 U04 D04 U14 R12 D25 U35 L23 R23 L23 D25 U25 D25 L45 U04 R01 D14 U14 L01"/>
+    </vehicle>
+    <vehicle id="f0_10" depart="400.00">
+        <route edges="D04 R45 U25 L12 D14 U04 R01 L01 R01 R12 D25 U35 L23 L12 L01 D04 R45 L45 U04 R01 L01 D04 U14 D14 U14 L01 R01 R12 D25 U35 L23 D25 U35"/>
+    </vehicle>
+    <vehicle id="f1_10" depart="400.00">
+        <route edges="R12 D25 U35 L23 D25 U35 L23 L12 D14 U04 R01 R12 D25 L45 U04 D04 U14 L01 D04 R45 U35 L23 D25 U35 L23 D25 U35 L23 D25 U25 R23 D35 L45"/>
+    </vehicle>
+    <vehicle id="f0_11" depart="440.00">
+        <route edges="D04 R45 U25 L12 D14 U04 D04 R45 L45 U14 L01 D04 U14 L01 D04 U14 R12 D25 U35 L23 D25 U25 R23 D35 U35 D35 L45 U04 R01 D14 R45 U25 R23"/>
+    </vehicle>
+    <vehicle id="f1_11" depart="440.00">
+        <route edges="R12 D25 L45 R45 U25 R23 D35 L45 U04 R01 D14 U04 R01 D14 U14 D14 R45 U35 D35 U35 D35 L45 U04 R01 R12 D25 U25 R23 L23 L12 D14 R45 U25"/>
+    </vehicle>
+    <vehicle id="f0_12" depart="480.00">
+        <route edges="D04 U14 R12 D25 U35 L23 D25 U35 D35 L45 U14 L01 R01 R12 D25 L45 U14 L01 D04 R45 L45 U14 R12 D25 L45 U04 R01 R12 D25 U25 L12 L01 D04"/>
+    </vehicle>
+    <vehicle id="f1_12" depart="480.00">
+        <route edges="R12 D25 U35 L23 D25 U35 D35 L45 U14 L01 D04 R45 U25 R23 L23 L12 L01 R01 D14 R45 U25 R23 D35 U25 L12 D14 R45 L45 U04 D04 R45 U25 L12"/>
+    </vehicle>
+    <vehicle id="f0_13" depart="520.00">
+        <route edges="D04 R45 U25 L12 D14 U04 R01 R12 D25 U35 D35 L45 U04 D04 R45 U25 L12 L01 R01 D14 R45 U25 L12 D14 U04 D04 U14 L01 D04 R45 L45 U04 R01"/>
+    </vehicle>
+    <vehicle id="f1_13" depart="520.00">
+        <route edges="R12 D25 U35 D35 U25 L12 D14 R45 U35 D35 U25 D25 U35 D35 U25 L12 D14 R45 U25 R23 D35 L45 U04 D04 R45 U25 D25 U35 L23 D25 U35 L23 D25"/>
+    </vehicle>
+    <vehicle id="f0_14" depart="560.00">
+        <route edges="D04 R45 U35 D35 U25 L12 L01 D04 R45 U35 D35 L45 U04 D04 R45 U25 L12 R12 D25 L45 U14 L01 D04 U14 D14 U14 R12 D25 L45 U14 L01 D04 R45"/>
+    </vehicle>
+    <vehicle id="f1_14" depart="560.00">
+        <route edges="R12 D25 U35 L23 D25 U25 D25 U35 D35 L45 U14 L01 R01 R12 D25 U35 D35 U25 D25 U25 L12 L01 D04 R45 U35 D35 U25 L12 D14 R45 U35 L23 D25"/>
+    </vehicle>
+    <vehicle id="f0_15" depart="600.00">
+        <route edges="D04 R45 U25 L12 L01 D04 U14 R12 D25 U25 R23 L23 D25 U25 L12 L01 D04 U14 R12 D25 U35 D35 U25 L12 D14 R45 U35 L23 R23 L23 D25 U35 L23"/>
+    </vehicle>
+    <vehicle id="f1_15" depart="600.00">
+        <route edges="R12 D25 L45 U04 D04 R45 U25 R23 L23 D25 U35 D35 U25 D25 U35 L23 D25 L45 U04 R01 R12 D25 L45 U14 L01 R01 R12 D25 U25 D25 L45 U04 R01"/>
+    </vehicle>
+    <vehicle id="f0_16" depart="640.00">
+        <route edges="D04 R45 U35 L23 L12 D14 U04 D04 R45 L45 U14 R12 D25 U25 L12 D14 R45 U35 D35 L45 U04 D04 R45 U25 L12 D14 R45 U25 L12 R12 D25 L45 R45"/>
+    </vehicle>
+    <vehicle id="f1_16" depart="640.00">
+        <route edges="R12 D25 U35 D35 U25 L12 R12 D25 U35 D35 U25 D25 U35 D35 U25 D25 U35 L23 D25 L45 U04 R01 R12 D25 L45 R45 L45 U04 D04 U14 L01 D04 R45"/>
+    </vehicle>
+    <vehicle id="f0_17" depart="680.00">
+        <route edges="D04 R45 L45 U04 R01 R12 D25 U35 D35 U35 D35 U35 L23 L12 L01 R01 L01 R01 R12 D25 U35 L23 D25 U25 D25 U35 L23 L12 L01 R01 R12 D25 U25"/>
+    </vehicle>
+    <vehicle id="f1_17" depart="680.00">
+        <route edges="R12 D25 L45 U04 R01 L01 D04 U14 D14 R45 L45 U14 L01 R01 L01 D04 R45 U25 D25 U35 L23 L12 R12 D25 L45 U04 D04 U14 R12 D25 U35 L23 D25"/>
+    </vehicle>
+    <vehicle id="f0_18" depart="720.00">
+        <route edges="D04 R45 U25 D25 U35 D35 U25 L12 D14 U14 L01 D04 R45 U25 R23 L23 D25 L45 U14 L01 R01 D14 R45 L45 U04 R01 R12 D25 U25 R23 L23 D25 U25"/>
+    </vehicle>
+    <vehicle id="f1_18" depart="720.00">
+        <route edges="R12 D25 U35 D35 U25 R23 D35 U35 D35 U35 L23 L12 R12 D25 U35 L23 R23 D35 L45 U14 L01 D04 R45 U35 L23 D25 U35 D35 U25 L12 D14 R45 U25"/>
+    </vehicle>
+    <vehicle id="f0_19" depart="760.00">
+        <route edges="D04 R45 U25 R23 D35 U35 L23 L12 D14 U14 L01 R01 D14 R45 U25 L12 D14 R45 U35 L23 L12 R12 D25 U35 D35 L45 U14 L01 R01 R12 D25 U35 L23"/>
+    </vehicle>
+    <vehicle id="f1_19" depart="760.00">
+        <route edges="R12 D25 U25 L12 R12 D25 U25 D25 U25 R23 L23 L12 R12 D25 L45 U14 L01 D04 R45 U25 D25 U35 L23 D25 L45 U14 L01 D04 U14 D14 R45 U25 L12"/>
+    </vehicle>
+    <vehicle id="f0_20" depart="800.00">
+        <route edges="D04 U14 L01 R01 D14 R45 U25 D25 U35 D35 U25 R23 L23 D25 U35 D35 L45 U04 D04 R45 U25 D25 U35 L23 L12 L01 R01 D14 U04 D04 R45 U25 L12"/>
+    </vehicle>
+    <vehicle id="f1_20" depart="800.00">
+        <route edges="R12 D25 U35 L23 L12 D14 R45 U25 L12 R12 D25 L45 U14 R12 D25 U35 D35 U35 D35 L45 U04 D04 R45 U25 L12 L01 D04 R45 L45 U04 D04 R45 U35"/>
+    </vehicle>
+    <vehicle id="f0_21" depart="840.00">
+        <route edges="D04 R45 U35 L23 D25 U35 D35 L45 U04 D04 R45 U25 L12 D14 R45 U25 R23 D35 U25 L12 L01 R01 L01 D04 R45 U25 L12 D14 R45 U35 L23 L12 D14"/>
+    </vehicle>
+    <vehicle id="f1_21" depart="840.00">
+        <route edges="R12 D25 L45 U14 D14 R45 U35 L23 L12 R12 D25 U35 L23 D25 L45 U04 R01 L01 R01 D14 U04 R01 D14 U14 R12 D25 U35 D35 U25 R23 D35 U25 D25"/>
+    </vehicle>
+    <vehicle id="f0_22" depart="880.00">
+        <route edges="D04 R45 U25 L12 L01 D04 R45 U35 L23 D25 U25 D25 L45 U04 R01 R12 D25 U35 L23 D25 U35 L23 R23 L23 L12 D14 U14 R12 D25 U25 L12 D14 U04"/>
+    </vehicle>
+    <vehicle id="f1_22" depart="880.00">
+        <route edges="R12 D25 L45 U04 D04 R45 U25 L12 D14 U04 D04 R45 U25 L12 L01 D04 U14 R12 D25 U25 D25 L45 U04 D04 R45 U25 D25 U35 L23 L12 R12 D25 L45"/>
+    </vehicle>
+    <vehicle id="f0_23" depart="920.00">
+        <route edges="D04 R45 U35 L23 L12 R12 D25 U25 D25 L45 U14 R12 D25 U35 L23 D25 L45 U14 D14 U04 R01 R12 D25 L45 U14 R12 D25 U35 L23 L12 D14 U04 D04"/>
+    </vehicle>
+    <vehicle id="f1_23" depart="920.00">
+        <route edges="R12 D25 U35 D35 U25 L12 L01 D04 R45 L45 R45 U35 D35 U25 R23 D35 U25 L12 R12 D25 U35 L23 R23 D35 L45 U14 R12 D25 L45 U04 D04 U14 D14"/>
+    </vehicle>
+    <vehicle id="f0_24" depart="960.00">
+        <route edges="D04 R45 U25 R23 L23 L12 R12 D25 L45 R45 U25 L12 D14 R45 U25 L12 D14 R45 U35 L23 R23 L23 L12 D14 R45 L45 U04 D04 R45 U35 L23 R23 D35"/>
+    </vehicle>
+    <vehicle id="f1_24" depart="960.00">
+        <route edges="R12 D25 U35 D35 U25 L12 D14 R45 U25 L12 D14 U04 R01 L01 D04 R45 U25 L12 R12 D25 U35 L23 L12 D14 U14 L01 D04 R45 U35 L23 D25 U35 L23"/>
+    </vehicle>
+</routes>
