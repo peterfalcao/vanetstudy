@@ -60,7 +60,6 @@ for {set i 0} {$i < $val(nn)} {incr i} {
   set node_($i) [$ns_ node]
   $node_($i) random-motion 0 ;# disable random motion
 }
-$ns_ at 0.0 "[$node_(25) set ragent_] malicious"   
 # 
 # Provide initial (X,Y, for now Z=0) co-ordinates for mobilenodes
 # 
@@ -75,6 +74,7 @@ $node_(1) set X_ 230.65
 $node_(1) set Y_ 210.05
 $node_(1) set Z_ 0.0
 $node_(1) setdest 230.65 210.05 1
+
   # ID of SUMO: f0_1
 $node_(2) set X_ 28.054050937049496
 $node_(2) set Y_ 194.9459490629505
@@ -316,6 +316,7 @@ $node_(49) set Y_ 210.05
 $node_(49) set Z_ 0.0
 $node_(49) setdest 230.65 210.05 1
 # Now produce node movements
+$ns_ at 4.0 "[$node_(25) set ragent_] malicious"
 $ns_ at 0.0 "$node_(0) setdest 29.26321239788563 193.73678760211436 1.71"
 $ns_ at 0.0 "$node_(1) setdest 232.13000000000002 210.05 1.48"
 $ns_ at 1.0 "$node_(0) setdest 31.83709995194618 191.1629000480538 3.64"
